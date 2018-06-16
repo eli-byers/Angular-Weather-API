@@ -1,0 +1,22 @@
+.center {
+    text-align: center;
+}
+
+
+.weather {
+    border: 1px solid #b4b4b4;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 50px 50px 50px;
+}
+
+.info {
+    width: 480px;
+    display: inline-block;
+}
+
+.weather img {
+    width: 300px;
+    max-height: 222px;
+}

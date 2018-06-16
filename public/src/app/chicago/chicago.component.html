@@ -1,0 +1,13 @@
+<div class='weather' *ngIf='weather'>
+    <div class='center'>
+      <h1>{{fullName}}</h1>
+    </div>
+    <div class='info'>
+      <h3>Humidity: {{weather.main.humidity}}</h3>
+      <h3>Temparature (Current): {{weather.main.temp}}</h3>
+      <h3>Temparature (High): {{weather.main.temp_max}}</h3>
+      <h3>Temparature (Low): {{weather.main.temp_min}}</h3>
+      <h3>Status: {{weather.weather[0].description}}</h3>
+    </div>
+    <img src="/images/{{cityName}}.jpg" alt="">
+  </div>
